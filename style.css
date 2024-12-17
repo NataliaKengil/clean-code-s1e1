@@ -18,8 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.header-content { text-align: center;
-}
+  .header-content { 
+    text-align: center;
+  }
 }
 .main-container {
   display: block;
@@ -31,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.add-tasks-wrapper{
+.add-tasks-wrapper {
   display: flex;
 }
 ul {
@@ -41,7 +42,7 @@ ul {
 li, h3 {
   list-style:none;
 }
-input,button{
+input,button {
   outline:none;
 }
 button {
